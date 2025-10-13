@@ -121,6 +121,7 @@ body {
     gap: 4rem;
     align-items: center;
     min-height: 80vh;
+    margin-bottom: 40px;
 }
 
 .hero-title {
@@ -586,6 +587,13 @@ section {
     position: relative;
 }
 
+.experience-details {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1;
+}
+
 .company-logo {
     width: 60px;
     height: 60px;
@@ -965,6 +973,14 @@ section {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
+    .experience-details{
+        margin-top: 1.3rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -984,6 +1000,14 @@ section {
     .btn {
         width: 200px;
         text-align: center;
+    }
+
+    .hero-container{
+        height: 580px;
+    }
+
+    .experience-details{
+        margin-top: 1.3rem;
     }
 }
 
