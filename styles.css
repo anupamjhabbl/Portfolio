@@ -300,27 +300,15 @@ section {
 .video-mockup {
     width: 260px;
     /* phone width */
-    height: 520px;
+    height: 530px;
     /* phone height */
     border: 12px solid #000;
     border-radius: 40px;
     overflow: hidden;
-    background: #111;
+    background: white;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    padding: 10px 0 0 0;
     position: relative;
-}
-
-/* little top notch for phone look */
-.video-mockup::before {
-    content: "";
-    position: absolute;
-    top: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 20px;
-    background: #000;
-    border-radius: 10px;
 }
 
 .video-mockup video {
